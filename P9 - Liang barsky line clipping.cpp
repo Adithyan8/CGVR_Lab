@@ -28,7 +28,7 @@ bool cliptest(double p, double q, double* t1, double* t2)
 	else if(p>0)
 	{
 		if (r < *t2)*t2 = r;
-		if (r > * t2) return false;
+		if (r < * t1) return false;
 	}
 	return true;
 }
